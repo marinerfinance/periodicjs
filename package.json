@@ -4,50 +4,24 @@
   "version": "10.70.92",
   "main": "index.js",
   "engines": {
-    "node": "^8.x"
+    "node": "^14.x"
   },
   "bin": {
     "periodicjs": "./bin/index.js"
   },
   "author": {
-    "name": "Yaw Joseph Etse",
-    "email": "yaw.etse@gmail.com",
-    "url": "http://about.me/yawjosephetse"
+    "name": "Dax",
+    "email": "dpatel@marinerfinance.com"
   },
   "contributors": [
     {
-      "name": "Vishnu Ravi",
-      "email": "hello@vishnu.io",
-      "url": "http://www.vishnu.io"
-    },
-    {
-      "name": "Alan David Garcia",
-      "email": "alandavidgarcia@gmail.com",
-      "url": "http://alangalan.tumblr.com"
-    },
-    {
-      "name": "Ernie Casilla",
-      "email": "ecasilla@icloud.com",
-      "url": "http://www.erniecasilla.com"
-    },
-    {
-      "name": "Jan Bialostok",
-      "email": "janbialostok@gmail.com",
-      "url": "https://github.com/janbialostok"
-    },
-    {
-      "name": "Mark Waldron",
-      "email": "markewaldron@gmail.com",
-      "url": "https://github.com/markwaldron"
-    },
-    {
-      "name": "Iris Dan",
-      "url": "https://github.com/irisdan"
+      "name": "Dax",
+      "email": "dpatel@marinerfinance.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/repetere/periodicjs.git"
+    "url": "git://github.com/marinerfinance/periodicjs.git"
   },
   "license": "MIT",
   "scripts": {
@@ -87,12 +61,14 @@
     "mongoose": "^5.4.12",
     "morgan": "^1.9.1",
     "numeral": "^2.0.6",
-    "periodicjs.core.controller": "^10.30.9",
-    "periodicjs.core.data": "^2.4.1",
-    "periodicjs.core.files": "^8.1.0",
-    "periodicjs.core.mailer": "^10.1.0",
-    "periodicjs.core.protocols": "^0.6.10",
-    "periodicjs.core.utilities": "^6.1.1",
+    "@mariner/periodicjs.core.cache": "6.9.4",
+    "@mariner/periodicjs.core.controller": "11.0.13",
+    "@mariner/periodicjs.core.extensions": "7.0.8",
+    "@mariner/periodicjs.core.mailer": "6.0.7",
+    "@mariner/periodicjs.core.utilities": "6.1.9",
+    "@mariner/periodicjs.core.data": "0.1.7",
+    "@mariner/periodicjs.core.files": "^8.1.0",
+    "@mariner/periodicjs.core.protocols": "0.2.8",
     "pluralize": "^7.0.0",
     "promisie": "~2.0.0-alpha.0",
     "proxy-polyfill": "0.3.0",
@@ -168,19 +144,13 @@
     "Periodic Decoupled Framework"
   ],
   "bugs": {
-    "url": "https://github.com/repetere/periodicjs/issues"
+    "url": "https://github.com/marinerfinance/periodicjs/issues"
   },
-  "homepage": "https://github.com/repetere/periodicjs",
+  "homepage": "https://github.com/marinerfinance/periodicjs.git",
   "maintainers": [
     {
-      "name": "Yaw Etse",
-      "email": "yaw.etse@gmail.com",
-      "url": "https://github.com/yawetse"
-    },
-    {
-      "name": "Jan Bialostok",
-      "email": "janbialostok@gmail.com",
-      "url": "https://github.com/janbialostok"
+      "name": "Dax",
+      "email": "dpatel@marinerfinance.com"
     }
   ],
   "readmeFilename": "README.md"

@@ -12,7 +12,7 @@ const config = require('../../../lib/init/config');
 const configSequelizeSchema = require('../../../lib/schemas/config.sequelize');
 const testPathDir = path.resolve(__dirname, '../../mock/spec/periodic');
 const initTestPathDir = path.join(testPathDir, 'configTest');
-const CoreData = require('periodicjs.core.data');
+const CoreData = require('@mariner/periodicjs.core.data');
 const initTestConfigJsonFile = path.join(initTestPathDir, 'content/config/config.json');
 const configTestConfigJson = require('../../mock/config/config_test_config');
 let configPeriodic;

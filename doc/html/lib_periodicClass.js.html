@@ -19,11 +19,11 @@
 
     <h1 class="page-title">Source: lib/periodicClass.js</h1>
 
-    
 
 
 
-    
+
+
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>'use strict';
@@ -34,10 +34,10 @@ const Promisie = require('promisie');
 const express = require('express');
 const events = require('events');
 const cache = require('memory-cache');
-const CoreData = require('periodicjs.core.data');
-const CoreFiles = require('periodicjs.core.files');
-const CoreUtilities = require('periodicjs.core.utilities');
-// const CoreController = require('periodicjs.core.controller');
+const CoreData = require('@mariner/periodicjs.core.data');
+const CoreFiles = require('@mariner/periodicjs.core.files');
+const CoreUtilities = require('@mariner/periodicjs.core.utilities');
+// const CoreController = require('@mariner/periodicjs.core.controller');
 const periodicInit = require('./init');
 const periodicExtension = require('./extension');
 const periodicCrud = require('./crud');
@@ -45,7 +45,7 @@ const periodicUtils = require('./utilities');
 const periodicProxyHandler = require('./periodicProxyHandler');
 /**
  * periodic singleton class
- * 
+ *
  * @class Periodic
  */
 class Periodic {
@@ -55,7 +55,7 @@ class Periodic {
    * @param {boolean} options.debug use debugging logs
    *  @param {String} options.app_root the path to the application's root directory
    * @return {object} proxied periodic singleton object
-   * 
+   *
    * @memberOf Periodic
    */
   constructor(options = {}) {
