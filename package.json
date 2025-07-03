@@ -1,10 +1,10 @@
 {
   "name": "periodicjs",
   "description": "Periodic is a rapid enterprise application framework for data driven web and mobile applications.",
-  "version": "10.70.92",
+  "version": "11.70.92",
   "main": "index.js",
   "engines": {
-    "node": "^14.x"
+    "node": ">=16.x"
   },
   "bin": {
     "periodicjs": "./bin/index.js"
@@ -61,14 +61,14 @@
     "mongoose": "^5.4.12",
     "morgan": "^1.9.1",
     "numeral": "^2.0.6",
-    "@mariner/periodicjs.core.cache": "6.9.4",
-    "@mariner/periodicjs.core.controller": "11.0.13",
-    "@mariner/periodicjs.core.extensions": "7.0.8",
-    "@mariner/periodicjs.core.mailer": "6.0.7",
-    "@mariner/periodicjs.core.utilities": "6.1.9",
-    "@mariner/periodicjs.core.data": "0.1.7",
-    "@mariner/periodicjs.core.files": "^8.1.0",
-    "@mariner/periodicjs.core.protocols": "0.2.8",
+    "@mariner/periodicjs.core.cache": "7.9.5",
+    "@mariner/periodicjs.core.controller": "12.0.14",
+    "@mariner/periodicjs.core.extensions": "8.0.10",
+    "@mariner/periodicjs.core.mailer": "7.0.8",
+    "@mariner/periodicjs.core.utilities": "7.1.10",
+    "@mariner/periodicjs.core.data": "1.1.8",
+    "@mariner/periodicjs.core.files": "^9.1.1",
+    "@mariner/periodicjs.core.protocols": "1.2.9",
     "pluralize": "^7.0.0",
     "promisie": "~2.0.0-alpha.0",
     "proxy-polyfill": "0.3.0",
